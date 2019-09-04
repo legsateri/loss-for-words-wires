@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Homepage HTML Wire</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+        <link rel="stylesheet" type="text/css" href="create-prompt-page.css">
+    </head>
+    <body>
+        <nav role="navigation">Nav</nav>
+        <main role="main">
+            <header>
+                <h1>Create Your Own Prompt</h1>
+            </header>
+            <section>
+                <form id="create-prompt">
+                    <div class="form-section">
+                        <label for="prompt-content">Your Prompt</label>
+                        <textarea name="prompt-content" rows="15" required></textarea>
+                    </div>
+                    <div class="author">
+                        <label for="author">Author or Pseudonym</label>
+                        <input type="text" name="author" placeholder="Ernest Hemingway" required>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+        </main>
+        <footer role="content-info">Footer</footer>
+    </body>
+</html>
