@@ -42,10 +42,24 @@ section:nth-child(even) {
 p {
     margin: 0 auto;
     max-width: 650px;
+    font-size: 15px;
 }
 
-p + p {
+p+p {
     margin-top: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+}
+
+.form-section {
+    margin-bottom: 30px;
 }
 
 ul {
