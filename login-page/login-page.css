@@ -10,7 +10,7 @@ body {
     line-height: 1.5;
 }
 
-nav, footer {
+footer {
     padding: 1% 0;
     background-color: #aaa;
 }
@@ -21,6 +21,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 10;
+    background-color: #aaa;
 }
 
 header {
@@ -44,4 +45,11 @@ p {
 
 p+p {
     margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
 }

@@ -11,7 +11,7 @@ body {
     min-width: 320px;
 }
 
-nav, footer {
+footer {
     padding: 1% 0;
     background-color: #aaa;
 }
@@ -22,6 +22,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 10;
+    background-color: #aaa;
 }
 
 header {
@@ -58,4 +59,11 @@ label {
 
 .form-section {
     margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
 }
